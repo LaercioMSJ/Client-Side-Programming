@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td[attr="0"], td[attr="1"], td[attr="2"] {
+    border: solid black 1px;
+    color: red;
+}
+
+td[attr="0"] {
+    background: gray;
+}
+
+td[attr="1"] {
+    background: blue;
+}
+
+td[attr="2"] {
+    background: white;
+}
